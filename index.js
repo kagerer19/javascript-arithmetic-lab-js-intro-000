@@ -39,6 +39,6 @@ function makeInt(n, base) {
 }
 function preserveDecimal(n, base) {
   var preserveDecimal = number.parseFloat === parseFloat;
-  return preserveDecimal;
+  return n;
 }
 
